@@ -192,9 +192,8 @@ Built with:
 
 Have questions? Found a bug? Want to discuss OSINT techniques?
 
-- 📧 Email: your.email@example.com
-- 🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)
-- 💬 Issues: [GitHub Issues](https://github.com/yourusername/digital-footprint-mapper/issues)
+- 📧 Email: ashutoshpatraybl@gmail.com
+- 💬 Issues: [GitHub Issues](https://github.com/Ashutosh3021/digital-footprint-mapper/issues)
 
 ---
 
