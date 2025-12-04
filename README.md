@@ -3,6 +3,7 @@
 > **Making the invisible visible** — See your digital shadow before others do.
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![React](https://img.shields.io/badge/React-18.0+-61DAFB.svg?logo=react)](https://reactjs.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![OSINT](https://img.shields.io/badge/OSINT-Ethical-green.svg)](https://en.wikipedia.org/wiki/Open-source_intelligence)
 
