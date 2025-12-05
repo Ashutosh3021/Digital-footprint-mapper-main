@@ -1,0 +1,86 @@
+export interface ScanResult {
+  scan_id: string
+  email: string
+  platforms: PlatformLink[]
+  profile_summary: {
+    name: string
+    bio: string
+    locations: string[]
+    organizations: string[]
+  }
+  risk_score: {
+    total_score: number
+    severity: string
+    breakdown: {
+      data_sensitivity: number
+      cross_platform_correlation: number
+      data_recency: number
+      exploitability: number
+    }
+    calculated_at: string
+  }
+  graph_data: {
+    nodes: Array<{
+      id: string
+      label: string
+      type: string
+      color: string
+      size: number
+      attributes: Record<string, any>
+    }>
+    edges: Array<{
+      from: string
+      to: string
+      title: string
+      width: number
+      color: string
+      attributes: Record<string, any>
+    }>
+  }
+  detailed_findings: DetailedFinding[]
+  trackers: Tracker[]
+  username_predictions: UsernamePrediction[]
+  created_at: string
+}
+
+export interface DetailedFinding {
+  platform: string
+  type: string
+  description: string
+  severity: "critical" | "high" | "medium" | "low"
+  evidence: string
+  recommendation: string
+}
+
+export interface PlatformLink {
+  name: string
+  handle: string
+  url: string
+  source: "mandatory" | "optional" | "discovered"
+  verified: boolean
+}
+
+export interface UsernamePrediction {
+  platform: string
+  predicted_username: string
+  confidence: number
+}
+
+export interface Tracker {
+  name: string
+  tracking_methods: string[]
+  confidence: number
+}
+
+export interface ScanInput {
+  // Mandatory fields
+  email: string
+  github: string
+  linkedin: string
+  // Optional fields
+  twitter?: string
+  reddit?: string
+  facebook?: string
+  instagram?: string
+  youtube?: string
+}
