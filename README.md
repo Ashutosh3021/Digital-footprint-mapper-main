@@ -1,6 +1,5 @@
 # 🔍 ExposureIQ: Your Digital Footprint is Showing
 
-![Status](https://img.shields.io/badge/status-OOPS%20YOU%RE%20EXPOSED-ff0054?style=flat-square&logo=security)
 ![Python](https://img.shields.io/badge/python-3.9%2B-ffd166?style=flat-square&logo=python)
 ![License](https://img.shields.io/badge/license-MIT%20(dont%20sue%20us)-667eea?style=flat-square)
 ![Hackathon](https://img.shields.io/badge/hackathon-GITACVPS001-06ffa5?style=flat-square&logo=git)
@@ -363,7 +362,7 @@ git push origin feature/your-amazing-idea
 We'll probably respond eventually 👋
 
 ### Email?
-If it's urgent: `help@exposureiq.dev`
+If it's urgent: `ashutoshpatraybl@gmail.com`
 
 ---
 
